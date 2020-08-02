@@ -1,7 +1,7 @@
 #pizza{
     background-image: url('../image/bg2.png');
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     background-size: cover;
     opacity: 85%;
 }
@@ -25,6 +25,10 @@ a{
 footer{
     color: white;
     text-align: center;
+    background-image: url('../image/order.png');
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
 }
 #row{
     display: flex;
@@ -38,23 +42,26 @@ footer{
     color:lime;
     font-size: large;
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 10px;
-}
-.col-md-3{
-    padding-bottom: 1rem;
-    color: white;
-}
-p{
-    color: white;
-    font-style: italic;
+h2{
     text-align: center;
+    color: lime;
 }
-button {
-  margin-top: 1rem;
-  margin-left: 45%;
+table{
+    color: white;
 }
+#pizzatotal{
+    color: white;
+}
+#totalbill{
+    color: white;
+}
+#addedprice{
+    color: white;
+}
+#finallmessage{
+    color: white;
+}
+label{
+    color: white;
+}
+
