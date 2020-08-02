@@ -32,7 +32,7 @@ footer{
      margin-right: 100px;
      margin-left: 100px;
      margin-top:100px;
-     margin-bottom: 100px;
+     
 }
 #para{
     color:lime;
@@ -43,7 +43,7 @@ footer{
     justify-content: space-between;
     margin-right: 100px;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .col-md-3{
     padding-bottom: 1rem;
