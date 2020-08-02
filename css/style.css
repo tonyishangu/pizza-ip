@@ -4,6 +4,7 @@
     height: auto;
     background-size: cover;
     opacity: 85%;
+    padding: auto;
 }
 h1{
     color: brown;
@@ -12,12 +13,12 @@ h1{
 header{
     background-image: url('../image/find.png');
     background-repeat: no-repeat;
-    height: 15vh;
+    height: auto;
     background-size: cover;
 }
 a{
     color: white;
-    font-weight: 300px;
+    font-weight: 200px;
 }
 #navbar{
     text-align: center;
@@ -64,4 +65,9 @@ table{
 label{
     color: white;
 }
-
+h5{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lime;
+}

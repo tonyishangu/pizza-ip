@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="./image/logo.png">
     <title>About Us</title>
@@ -10,7 +12,7 @@
 <body>
     <header>
         <h1>PIZZAGEDON</h1>
-        <h2>ABOUT US</h2>
+        
         <a href="index.html">HOME</a>
     </header>
         <h4>About Us</h4>
@@ -24,8 +26,18 @@
         coming back time after time. These are the meals that have made our Terri?c Tuesday everyone’s favourite day of the
         week. When entertaining, a Hawaiian, a Regina, or a Peri Peri Chicken pizza from Pizza Inn is the obvious and perfect
         option to please crowds of all ages.</p>
+        <form id="submitform">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your Name" id="name">&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="email">Email</label>
+            <input type="email" placeholder="Enter your Email"><br>
+            <label for="message">Your Message</label><br>
+            <textarea rows="10" cols="90" placeholder="Your message here" id="text"></textarea><br>
+            <button type="submit" class="btn btn-primary">SUBMIT</button>
+        </form>
     <footer>
         <p>&copy; 2020 tonyishangu</p>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
