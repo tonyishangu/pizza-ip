@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+}
+h1{
+    color: brown;
+}
+h2{
+    color: lime;
+}
+footer{
+    text-align: center;
+}
+body{
+    background-image: url('../image/bg2.png');
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    opacity: 85%;
+    padding: auto;
+}
+form{
+    text-align: center;
+    color: lime;
+}
+h4{
+    color: lime;
+    text-align: center;
+}
+p{
+    color: royalblue;
+}
