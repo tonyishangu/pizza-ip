@@ -1,4 +1,4 @@
-## Pizzagedon.
+## Pizzageddon.
 ### Author Tony.
 ## Description.
 Pizzagedon is a web application that allows a user to book a pizza online by choosing his/her desired size toppings and crust a\then choose to either have delivered or pick it up him/herself from the shop.the web application calculates the cost of the pizza and displays it.It also has an about us page where you may contact the shop via email.
