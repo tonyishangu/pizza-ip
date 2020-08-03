@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     height: auto;
     background-size: cover;
-    opacity: 85%;
+    opacity: 100%;
     padding: auto;
 }
 h1{
@@ -70,4 +70,29 @@ h5{
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: lime;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: whitesmoke;
+  }
+  #pizza{
+      height: auto;
+      width: auto;
+  }
+  #row{
+      height: auto;
+      width: auto;
+  }
+  #row1{
+      height: auto;
+      width: auto;
+  }
+  #row2{
+      height: auto;
+      width: auto;
+  }
+  #row3{
+      height: auto;
+      width: auto;
+  }
 }
